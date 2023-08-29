@@ -1,0 +1,93 @@
+.intro {
+    background-color: #F1F6F9;
+    display: flex;
+}
+
+.iLeft {
+    flex: 1;
+    overflow: hidden;
+}
+
+.iRight {
+    flex: 1;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.iRight .wrapper {
+    width: 100%;
+    height: 100%;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.iRight .wrapper h1 {
+    font-size: 60px;
+    margin: 10px 0;
+}
+
+.iRight .wrapper h2 {
+    font-size: 35px;
+}
+
+.iRight .wrapper h3 {
+    font-size: 30px;
+}
+
+.iRight .wrapper h3 span {
+    font-size: inherit;
+    color: #C8AE7D;
+}
+
+.ityped-cursor {
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+
+.iRight .wrapper a {
+    position: absolute;
+    bottom: 10px;
+    left: 45%;
+}
+
+.iRight .wrapper img {
+    width: 30px;
+    animation: arrowBlink 3s infinite;
+}
+
+@keyframes arrowBlink {
+    100%{
+        opacity: 0;
+    }
+}
+
+.imgContainer {
+    width: 700px;
+    height: 700px;
+    display: flex;
+    border-radius: 50%;
+    position: relative;
+    background-color: #F0E9D2;
+    float: right;
+}
+
+.imgContainer img {
+    width: 100%;
+    position: absolute;
+    bottom: 125px;
+    right: -60px;
+}

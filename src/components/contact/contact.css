@@ -1,0 +1,66 @@
+.contact {
+    background-color: white;
+    display: flex;
+}
+
+.cLeft {
+    flex: 1;
+    overflow: hidden;
+}
+
+.cLeft img {
+    height: 100%;
+}
+
+.cRight {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cRight h2 {
+    font-size: 30px;   
+}
+
+.cRight form {
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transition: all 0.7s ease;
+}
+
+.cRight form input {
+    width: 300px;
+    height: 30px;
+    font-size: 14px;
+}
+
+.cRight form textarea {
+    width: 300px;
+    height: 200px;
+    font-size: 14px;
+}
+
+.cRight form button {
+    width: 150px;
+    height: 30px;
+    color: white;
+    background-color: #2C3333;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.cRight form button {
+    outline: none;
+}
+
+.submit-success {
+    color: #1FAB89;
+}

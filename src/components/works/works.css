@@ -1,0 +1,108 @@
+.works {
+    background-color: #272829;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.wArrow {
+    height: 50px;
+    position: absolute;
+}
+
+.wArrow-left {
+    left: 100px;
+    transform: rotateY(180deg);
+    cursor: pointer;
+}
+
+.wArrow-right {
+    right: 100px;
+    cursor: pointer;
+}
+
+.wSlider {
+    height: 350px;
+    display: flex;
+    position: absolute;
+    left: 0;
+    transition: all 0.7s ease;
+}
+
+.wContainer {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wItem {
+    width: 700px;
+    height: 100%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wLeft {
+    flex: 4;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wLeftContainer {
+    width: 90%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wImgContainer {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #F8F0E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wImgContainer img {
+    width: 25px;
+}
+
+.wLeftContainer h2 {
+    font-size: 20px;
+}
+
+.wLeftContainer p {
+    font-size: 13px;
+}
+
+.wLeftContainer span {
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.wRight {
+    flex: 8;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: hidden;
+}
+
+.wRight img {
+    width: 400px;
+    transform: rotate(-10deg);
+    overflow: hidden;
+}
